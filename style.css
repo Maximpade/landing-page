@@ -3,6 +3,7 @@ body{
     display: flex;
     flex-wrap: wrap;
     margin: auto;
+    font-family:"Roboto";
 }
 .header{  
     display: flex;
@@ -11,17 +12,19 @@ body{
     background-color: #1f2937;
     height: 50px;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    color:#E5e7eb;
+    
 }
 .head{
     width: 100%;
-  
+    padding: 30px;
     background-color: #1f2937;
     color:white;
     display:flex;
     flex-wrap: wrap;
-    justify-content: center;
-    gap:200px;
+    justify-content: space-evenly;
+    
     
 }
 .logo{
@@ -30,10 +33,8 @@ body{
     }
 .links{
     display: flex;
-    margin-right: 100px;
-   
- 
- gap:10px;
+    font-size: 18px;
+  gap:10px;
 }
 
 .links a{
@@ -44,7 +45,8 @@ body{
 
 }.head img{
     justify-self: flex-end;
-    margin: 10px;
+   
+    border-radius: .5em;
     
 
 }
@@ -58,4 +60,154 @@ body{
 .lefthead{
     display: flex;
     flex-direction: column;
+}
+.mid{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: space-around;
+    align-items: center;
+    align-self: center;
+    gap: 40px;
+    margin-bottom: -100px;
+    }
+.mid h2{
+    display:flex;
+   
+    width:100%;
+    
+    justify-content: center;
+
+   text-align: center;
+  font-weight: 900;
+ margin-top: 40px;
+ color: #1f2937;
+ font-size: 36px;
+ font-family:  serif;
+ margin-bottom: -10px;
+}
+
+.images{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: 1em;
+    gap:10px;
+    
+    
+}
+.images img{
+    display: flex;
+    border-radius: 1em;
+    justify-self: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+   
+}
+.quote-container{
+    background-color: #e5e7eb;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+    flex-direction: column;
+    align-content: center;
+    margin-top: 10em;
+    padding: 2em;
+}
+.quote-container p{
+    display: flex;
+    max-width: 600px;
+    justify-self: center;
+    flex-direction: row;
+    font-size: 36px; 
+    font-style:light italic;
+    color: #1f2937;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+    width: 100%;
+
+}
+.quote-container h3{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-content: flex-start;
+    margin-top:-20px;
+}
+.call-to-action{
+    margin-top: 2em;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    
+   
+   
+
+}
+.call-to-action .box{ 
+    flex-direction: row;
+    display:flex;
+    border-radius: .5em;
+    margin-top:25px;
+    height: 10em;
+    background-color: #3882f6;
+    color:white;
+    width: 70%;
+    height:80%;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.box button{
+    justify-content: flex-end;
+    flex-direction: row;
+    color:white;
+    background-color: #3882f6;
+    border-color: white;
+    border-radius: .3em;
+    flex-wrap: nowrap;
+}
+.box{
+    display: flex;
+}
+.foot {
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-top: auto;
+    flex-direction: column;
+    margin-top: 7em;
+    height: 7em;
+    background-color: #1f2937;
+   
+    
+}
+.foot p{
+    display: flex;
+    background-color: #1f2937;
+    color:white;
+    width: 100%;
+    justify-content: center;
+ 
+    align-items: center;
+    padding:auto;
+    flex-direction: column;
+
+
+}
+.boxh3, .boxp{
+display: flex;
+flex-direction: column;
+}
+.leftbox p{
+    margin-top: -1em;
+    
 }
